@@ -22,7 +22,7 @@ public class PhoneBook {
         System.out.println(pn.get("Кузнецов"));
         System.out.println(pn.get("Пучкова"));
 
-        System.out.println(pn + pn.get("Иванов"));
+        System.out.println(pn + pn.get("Иванов") + pn.get("Иванов"));
         }
 
     }
